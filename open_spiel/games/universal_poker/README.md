@@ -6,6 +6,16 @@ dependency. See the
 [https://github.com/deepmind/open_spiel/blob/master/docs/install.md](install.md)
 for documentation and `open_spiel/scripts/global_variables.sh` to enable this.
 
+```
+cd path/to/open_spiel
+export BUILD_WITH_ACPC="ON"
+./install.sh
+./open_spiel/scripts/build_and_run_tests.sh
+# activate your virtualenv
+pip install -e .
+python3 open_spiel/python/examples/mcts.py --game=universal_poker --player1=human --player2=mcts
+```
+
 This is a wrapper around the Annual Computer Poker Competition bot (ACPC)
 environment. See http://www.computerpokercompetition.org/. The code is initially
 available at https://github.com/ethansbrown/acpc
