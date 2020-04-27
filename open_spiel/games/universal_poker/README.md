@@ -11,7 +11,7 @@ cd path/to/open_spiel
 export BUILD_WITH_ACPC="ON"
 ./install.sh
 ./open_spiel/scripts/build_and_run_tests.sh
-# activate your virtualenv
+# activate your virtualenv, then:
 pip install -e .
 python3 open_spiel/python/examples/mcts.py --game=universal_poker --player1=human --player2=mcts
 ```
