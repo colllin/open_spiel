@@ -1,0 +1,1 @@
+universal_poker(betting=nolimit,numPlayers=2,numRounds=4,stack=20000 20000,blind=50 100,firstPlayer=1 1 1 1,numSuits=4,numRanks=13,numHoleCards=2,numBoardCards=0 3 1 1,bettingAbstraction=fullgame)
